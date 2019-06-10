@@ -1,0 +1,29 @@
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: #bada55; /* green */
+    transition-property: width, background-color;
+    transition-duration: 2s;
+}
+
+.box:hover {
+    width: 150px;
+    background-color: #e84610; /* red */
+}
+
+/*  When hovered this link should change color to the black: #000.
+    Transition speed should be set to 1 second and transition-timing-function should be ease-in-out.
+    Transition should be triggered on hover */
+    
+a {
+  color: #e84610;
+  font-size: 16px;
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
+
+a:hover {
+    color: #000;
+}
